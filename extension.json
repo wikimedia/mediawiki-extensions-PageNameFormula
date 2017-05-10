@@ -6,7 +6,9 @@
 		"[http://mwstake.org Mark A. Hershberger]"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:PageNameFormula",
-	"require": [ "1.28" ],
+	"requires": {
+		"MediaWiki": ">=1.28"
+	},
 	"descriptionmsg": "pagenameformula-desc",
 	"type": "parserhook",
 	"MessagesDirs": {
@@ -18,7 +20,6 @@
 		"PageNameFormulaMagic": "src/i18n/Magic.php"
 	},
 	"AutoloadClasses": {
-		"PageNameFormula\\PageNameFormula": "src/PageNameFormula.php",
 		"PageNameFormula\\Hook": "src/Hook.php"
 	},
 	"Hooks": {
