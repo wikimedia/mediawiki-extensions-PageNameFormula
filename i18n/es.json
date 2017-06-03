@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
-	"pagenameformula-desc": "Permite el nombramiento alternativo de una página"
+	"pagenameformula-desc": "Permite dar nombres alternativos a las páginas"
 }
