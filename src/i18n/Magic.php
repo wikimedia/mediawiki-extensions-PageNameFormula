@@ -25,4 +25,3 @@ $magicWords['en'] = [
 $magicWords['fr'] = [
 	'page_name_formula' => [ 0, 'page_nom_formulaire' ],
 ];
-
